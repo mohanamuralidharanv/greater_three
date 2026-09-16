@@ -1,0 +1,14 @@
+# Python program to find the greatest of three numbers
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+c = float(input("Enter third number: "))
+
+greatest = a
+
+if b > greatest:
+    greatest = b
+if c > greatest:
+    greatest = c
+
+print("The greatest number is:", greatest)
